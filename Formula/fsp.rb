@@ -1,26 +1,26 @@
 class Fsp < Formula
   desc "File-tree routing for Flutter: the fsp code generator"
   homepage "https://github.com/fespalier/fespalier"
-  version "0.11.0"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fespalier/fespalier/releases/download/v0.11.0/fsp-aarch64-apple-darwin.tar.gz"
-      sha256 "cbd1b722af14c4da0040bc0f5f2ac61095c842dd4e4e6038664381fac1045f2a"
+      url "https://github.com/fespalier/fespalier/releases/download/v0.12.0/fsp-aarch64-apple-darwin.tar.gz"
+      sha256 "e785d7ccd0f1c60c36989ede8c86fdc6ad061a3df37dbdf2354c5aeb52a1a834"
     elsif Hardware::CPU.intel?
-      url "https://github.com/fespalier/fespalier/releases/download/v0.11.0/fsp-x86_64-apple-darwin.tar.gz"
-      sha256 "211605516b27ae5320c3016aa23a2dd2908b2d6e04c84aed2bd996d2e339895f"
+      url "https://github.com/fespalier/fespalier/releases/download/v0.12.0/fsp-x86_64-apple-darwin.tar.gz"
+      sha256 "3d1cc573c3dfae06d075f022fc3ebc42e405d7e1e457932e44c7e07c79c17841"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fespalier/fespalier/releases/download/v0.11.0/fsp-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d3ff039bd6385921ba2085bc10a302a37780222cbe990311f3e08e87a40f95f8"
+      url "https://github.com/fespalier/fespalier/releases/download/v0.12.0/fsp-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "642048f871aa6b2968b86e86c9d61a3e345ec75924846837b9f59683bfa4ce9f"
     elsif Hardware::CPU.intel?
-      url "https://github.com/fespalier/fespalier/releases/download/v0.11.0/fsp-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "58b369fc2222a379ba4fc0feedf1b82a121cb3da1a8c1ef31232ad3e8e5be795"
+      url "https://github.com/fespalier/fespalier/releases/download/v0.12.0/fsp-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b0426a951532e3828ecc7878a848f0c066bcfa08174be488de91f280684084be"
     end
   end
 
